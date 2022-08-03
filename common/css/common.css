@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #333
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+address {
+    font-style: normal
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+img {
+    border: 0;
+    vertical-align: top
+}
+
+.hidden,
+#skipNav {
+    display: block;
+    position: absolute;
+    left: -1000%;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+/* header 공통영역 */
+
+/* 나중에 높이는 상황에 따라 지움된다. */
+#headerArea {
+    background: blue;
+    height: 100px;
+}
+
+#headerArea .headerInner {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: orange;
+}
+
+
+
+/* footer 공통영역 */
+#footerArea {
+    background: blue;
+    height: 100px;
+}
+
+#footerArea .footerInner {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: orange;
+}

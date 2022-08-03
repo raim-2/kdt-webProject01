@@ -1,0 +1,19 @@
+/* 비주얼 영역 */
+.main {
+    width: 2000px;
+    height: 1000px;
+    background: pink;
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -1000px;
+}
+
+/* 본문 콘텐츠 영역 */
+#content {
+    width: 1000px;
+    /* 임시 */
+    height: 1000px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
