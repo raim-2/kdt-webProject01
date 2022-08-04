@@ -201,7 +201,9 @@ img {
   top: 30px;
 }
 
-#headerArea .topMenu ul {}
+#headerArea .topMenu ul {
+  clear: both;
+}
 
 #headerArea .topMenu ul li {
   float: left;
@@ -270,7 +272,7 @@ img {
   content: '';
   display: block;
   width: 130px;
-  height: 2px;
+  height: 3px;
   background: #fff;
   position: absolute;
   left: -29px;
@@ -309,12 +311,14 @@ img {
   box-sizing: border-box;
 }
 
+#footerArea .copy .copyLeft {
+  float: left;
+}
+
 #footerArea .family {
   width: 250px;
   background: #ccc;
-  position: relative;
-  left: 951px;
-  top: -80px;
+  float: right;
 }
 
 #footerArea .family>a {
