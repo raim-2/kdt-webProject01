@@ -24,7 +24,7 @@
 
 #content .contentArea>ul li {
   float: left;
-  width: 180px;
+  width: 400px;
   text-align: center;
   background: #f8f8f8;
   box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 10%);
@@ -191,12 +191,7 @@
 }
 
 #content .contentArea .location dd {
-  float: left;
-  width: 400px;
-}
-
-#content .contentArea .location ul:first-of-type dd {
-  margin-left: -8px;
+  margin-left: 200px;
 }
 
 #content .contentArea .location dd span {
@@ -205,6 +200,7 @@
 
 #content .contentArea .location .subway {
   position: relative;
+
 }
 
 #content .contentArea .location .subway span {

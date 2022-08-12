@@ -11,6 +11,23 @@
   margin-left: -1000px;
 }
 
+.main p {
+  position: absolute;
+  left: 25%;
+  bottom: 43%;
+  color: #fff;
+}
+
+.main p:first-of-type {
+  font-size: 50px;
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+
+.main p:last-of-type {
+  font-size: 24px;
+}
+
 /* 본문 콘텐츠 영역 */
 #content {
   width: 1200px;
@@ -140,7 +157,7 @@
   font-weight: 700;
 }
 
-.new > ul {
+.new>ul {
   margin-top: 100px;
   position: relative;
 }
@@ -504,12 +521,12 @@
   font-size: 1.125em;
 }
 
-.business ul li div + span {
+.business ul li div+span {
   float: right;
   margin: 125px 30px 0 0;
 }
 
-.business ul li div + span img {
+.business ul li div+span img {
   width: 85%;
 }
 
@@ -518,12 +535,10 @@
 }
 
 .business ul li:first-of-type:hover {
-  background: linear-gradient(
-    143deg,
-    rgba(1, 171, 206, 1) 0%,
-    rgba(1, 203, 244, 1) 41%,
-    rgba(123, 215, 235, 1) 100%
-  );
+  background: linear-gradient(143deg,
+      rgba(1, 171, 206, 1) 0%,
+      rgba(1, 203, 244, 1) 41%,
+      rgba(123, 215, 235, 1) 100%);
 }
 
 .business ul li:nth-of-type(2) {
@@ -532,12 +547,10 @@
 }
 
 .business ul li:nth-of-type(2):hover {
-  background: linear-gradient(
-    143deg,
-    rgba(248, 248, 248, 1) 0%,
-    rgba(248, 248, 248, 1) 41%,
-    rgba(254, 253, 253, 1) 100%
-  );
+  background: linear-gradient(143deg,
+      rgba(248, 248, 248, 1) 0%,
+      rgba(248, 248, 248, 1) 41%,
+      rgba(254, 253, 253, 1) 100%);
 }
 
 .business ul li .black {
@@ -549,12 +562,10 @@
 }
 
 .business ul li:nth-of-type(3):hover {
-  background: linear-gradient(
-    143deg,
-    rgba(31, 65, 92, 1) 0%,
-    rgba(47, 71, 91, 1) 41%,
-    rgba(66, 113, 150, 1) 100%
-  );
+  background: linear-gradient(143deg,
+      rgba(31, 65, 92, 1) 0%,
+      rgba(47, 71, 91, 1) 41%,
+      rgba(66, 113, 150, 1) 100%);
 }
 
 .business .scroll {
@@ -844,7 +855,7 @@
   color: #01abce;
 }
 
-.news > a {
+.news>a {
   color: #01abce;
   float: right;
   width: 150px;
@@ -859,11 +870,11 @@
   transition: all 0.4s ease-in-out;
 }
 
-.news > a i {
+.news>a i {
   margin-left: 25px;
 }
 
-.news > a:hover {
+.news>a:hover {
   color: #fff;
   background: #01abce;
 }

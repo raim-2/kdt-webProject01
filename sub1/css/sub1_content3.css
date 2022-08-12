@@ -1,81 +1,183 @@
 /* 주요연혁 본문영역 */
 
-#content {
-  /* 임시높이 */
-  height: 2000px;
-}
 
-#content .contentArea > p {
+#content .contentArea>p {
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 60px;
 }
 
-#content .contentArea > ul {
+#content .contentArea>ul {
   width: 600px;
   margin: 0 auto;
   font-size: 18px;
   overflow: hidden;
 }
 
-#content .contentArea > ul li {
+#content .contentArea>ul li {
   width: 160px;
   margin: 0 20px;
   float: left;
   text-align: center;
 }
 
-#content .contentArea > ul li a {
+#content .contentArea>ul li a {
   display: block;
   padding: 15px 20px;
   background: #f8f8f8;
   border-radius: 15px;
 }
 
-#content .contentArea > ul li .current {
+#content .contentArea>ul li .current {
   background: #01abce;
   color: #fff;
 }
 
-#content .contentArea > ul li:hover a {
+#content .contentArea>ul li:hover a {
   color: #fff;
   background: #01abce;
 }
 
-#content .contentArea > ul + p {
+#content .contentArea>ul+p {
   font-size: 30px;
   text-align: center;
   margin: 100px 0 80px;
+  line-height: 1.6em;
 }
 
-#content .contentArea > ul + p span {
+#content .contentArea>ul+p span {
   color: #01abce;
 }
 
-#content .contentArea .y2020 {
+#content .contentArea .historyMain {
   position: relative;
-}
-
-.contentArea .y2020 img {
   width: 2000px;
+  height: 380px;
   position: relative;
   left: 50%;
   top: 0;
   margin-left: -1000px;
+  background: url(../images/content3/y2022.jpg) center no-repeat;
+  background-attachment: fixed;
 }
 
-.contentArea .y2020 p {
-  font-size: 28px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 120px 0 0 100px;
-  color: #fff;
-}
 
-.contentArea .y2020 span {
-  display: block;
+.contentArea .historyMain .historyMainInner h3 {
   font-weight: 600;
   font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.contentArea .historyMain .historyMainInner {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  right: 430px;
+  bottom: 130px;
+}
+
+.contentArea .y2020Content {
+  /* margin-top: 150px; */
+  margin: 120px 30px 0;
+  position: relative;
+}
+
+.contentArea .y2020Content .y2020Left {
+  width: 600px;
+  float: left;
+}
+
+.contentArea .y2020Content .y2020Left li {
+  font-size: 100px;
+  color: #01abce;
+}
+
+.contentArea .y2020Content .y2020Left li span {
+  display: block;
+}
+
+.contentArea .y2020Content .y2020Left li:first-child {
+  height: 690px;
+  position: relative;
+}
+
+.contentArea .y2020Content .y2020Left li:first-child img {
+  position: absolute;
+  right: 70px;
+  top: 150px;
+  transition: all .6s ease-in-out;
+}
+
+.contentArea .y2020Content .y2020Left li:first-child:hover img {
+  transform: scale(1.1) translateY(100px);
+}
+
+/* .contentArea .y2020Content .y2020Left li:first-child::after {
+  content: '';
+  display: block;
+  width: 400px;
+  height: 400px;
+  background: url(http://127.0.0.1:5500/www/sub1/css/../images/content3/history03.jpg) no-repeat;
+  position: absolute;
+  left: 140px;
+  top: 210px;
+} */
+
+.contentArea .y2020Content .y2020Left li:nth-child(2) {
+  height: 1040px;
+  position: relative;
+}
+
+.contentArea .y2020Content .y2020Left li:nth-child(2) img {
+  position: absolute;
+  left: 30px;
+  top: 210px;
+  transition: all .8s ease-in-out;
+}
+
+.contentArea .y2020Content .y2020Left li:nth-child(2):hover img {
+  transform: scale(1.1) translateY(60px);
+  ;
+}
+
+
+/* .contentArea .y2020Content .y2020Left li:nth-child(2)::after {
+  content: '';
+  display: block;
+  width: 400px;
+  height: 400px;
+  background: url(http://127.0.0.1:5500/www/sub1/css/../images/content3/history04.jpg) no-repeat;
+  position: absolute;
+  left: 20px;
+  top: 1000px;
+} */
+
+.contentArea .y2020Content .y2020Left li:last-child {
+  height: 830px;
+}
+
+.contentArea .y2020Content .y2020Right {
+  /* width: 700px; */
+  float: left;
+  padding-left: 20px;
+}
+
+.contentArea .y2020Content .y2020Right ul {
+  margin-top: 30px;
+}
+
+.contentArea .y2020Content .y2020Right dl {
+  margin-bottom: 50px;
+}
+
+.contentArea .y2020Content .y2020Right dt {
+  font-size: 20px;
+  font-weight: 500;
+  color: #01cbf4;
+  margin-bottom: 23px;
+}
+
+.contentArea .y2020Content .y2020Right dd {
+  font-size: 18px;
   margin-bottom: 10px;
 }
