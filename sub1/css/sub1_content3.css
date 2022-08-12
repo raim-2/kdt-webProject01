@@ -1,0 +1,81 @@
+/* 주요연혁 본문영역 */
+
+#content {
+  /* 임시높이 */
+  height: 2000px;
+}
+
+#content .contentArea > p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#content .contentArea > ul {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+#content .contentArea > ul li {
+  width: 160px;
+  margin: 0 20px;
+  float: left;
+  text-align: center;
+}
+
+#content .contentArea > ul li a {
+  display: block;
+  padding: 15px 20px;
+  background: #f8f8f8;
+  border-radius: 15px;
+}
+
+#content .contentArea > ul li .current {
+  background: #01abce;
+  color: #fff;
+}
+
+#content .contentArea > ul li:hover a {
+  color: #fff;
+  background: #01abce;
+}
+
+#content .contentArea > ul + p {
+  font-size: 30px;
+  text-align: center;
+  margin: 100px 0 80px;
+}
+
+#content .contentArea > ul + p span {
+  color: #01abce;
+}
+
+#content .contentArea .y2020 {
+  position: relative;
+}
+
+.contentArea .y2020 img {
+  width: 2000px;
+  position: relative;
+  left: 50%;
+  top: 0;
+  margin-left: -1000px;
+}
+
+.contentArea .y2020 p {
+  font-size: 28px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 120px 0 0 100px;
+  color: #fff;
+}
+
+.contentArea .y2020 span {
+  display: block;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,115 @@
+/* 기업소개 본문영역 */
+
+#content .contentArea {}
+
+#content .contentArea>p {
+  font-size: 1.5em;
+  text-align: center;
+  /* margin-bottom: 60px; */
+  position: relative;
+}
+
+/* #content .contentArea > p::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 60px;
+  background: #01abce;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+} */
+
+.ceoSummary {
+  overflow: hidden;
+  padding: 120px 60px 0;
+}
+
+.ceoSummary:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.ceoSummary img {
+  float: left;
+  margin-top: 30px;
+}
+
+.ceoSummary .rightText {
+  float: right;
+  /* height: 386px; */
+  padding-top: 40px;
+}
+
+.rightText p:first-of-type {
+  font-size: 30px;
+  line-height: 1.6em;
+}
+
+.rightText>p span {
+  color: #01abce;
+  display: block;
+  font-weight: 500;
+}
+
+.rightText>p span:last-child {
+  display: inline;
+}
+
+.rightText p:last-of-type {
+  font-size: 20px;
+  padding: 55px 0 90px;
+}
+
+.rightText p:last-of-type+span {
+  font-size: 18px;
+  position: relative;
+  margin-left: 40%;
+}
+
+.rightText p:last-of-type+span::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #01abce;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+
+/* .rightText p:last-of-type + span::after {
+  content: "";
+  display: block;
+  width: 156px;
+  height: 82px;
+  background: url(../images/content2/sign.jpg) 0 0 no-repeat;
+} */
+
+.rightText>span img {
+  position: absolute;
+  left: 150px;
+  bottom: -30px;
+}
+
+.greeting {
+  background: url(../images/content2/box.jpg) 0 0 no-repeat;
+  padding: 130px 100px 160px;
+  margin-bottom: 80px;
+}
+
+.greeting p {
+  font-size: 18px;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.greeting span {
+  color: #01abce;
+}
+
+.greeting span:last-of-type {
+  font-size: 18px;
+}

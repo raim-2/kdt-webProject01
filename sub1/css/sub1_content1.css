@@ -1,0 +1,196 @@
+/* 기업소개 본문영역 */
+#content .contentArea {}
+
+#content .contentArea>p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#content .contentArea>ul {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+#content .contentArea>ul li {
+  width: 160px;
+  margin: 0 20px;
+  float: left;
+  text-align: center;
+}
+
+#content .contentArea>ul li a {
+  display: block;
+  padding: 15px 20px;
+  background: #f8f8f8;
+  border-radius: 15px;
+}
+
+#content .contentArea>ul li .current {
+  background: #01abce;
+  color: #fff;
+}
+
+#content .contentArea>ul li:hover a {
+  color: #fff;
+  background: #01abce;
+}
+
+#content .contentArea .content01 {
+  margin-top: 100px;
+  padding: 70px 0;
+  /* height: 643px; */
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  background: url(../images/content1/vision.jpg) no-repeat;
+}
+
+#content .content01 h3,
+#content .content02 h3,
+#content .content03 h3 {
+  font-size: 40px;
+  color: #01abce;
+  margin-bottom: 30px;
+}
+
+#content .contentArea .content01 p {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 110px;
+}
+
+#content .contentArea .content01 ul {
+  /* overflow: hidden; */
+  width: 1090px;
+  margin: 0 auto;
+}
+
+#content .contentArea .content01 ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#content .contentArea .content01 li {
+  width: 250px;
+  height: 250px;
+  margin-right: 30px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  float: left;
+  box-shadow: 2px 2px 18px 6px rgb(0 0 0 / 10%);
+}
+
+#content .contentArea .content01 li:first-child,
+#content .contentArea .content01 li:nth-of-type(3) {
+  position: relative;
+  left: 0;
+  top: 30px;
+}
+
+#content .contentArea .content01 li:last-child,
+#content .contentArea .content01 li:nth-of-type(2) {
+  position: relative;
+  left: 0;
+  top: -30px;
+}
+
+#content .contentArea .content01 li:last-child {
+  margin-right: 0;
+}
+
+#content .contentArea .content01 dl {
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  margin: 70px auto;
+}
+
+#content .contentArea .content01 dt {
+  font-size: 24px;
+  font-weight: 600;
+  color: #01cbf4;
+  margin-bottom: 15px;
+}
+
+#content .contentArea .content01 dd {
+  font-size: 100%;
+  line-height: 1.8em;
+  /* text-align: center;
+  width: 60%;
+  margin: 0 auto; */
+}
+
+#content .contentArea .content02 {
+  overflow: hidden;
+  margin: 100px 0;
+}
+
+#content .contentArea .content02 .left {
+  float: left;
+  width: 598px;
+  padding: 20px 40px 30px 0;
+  box-sizing: border-box;
+}
+
+#content .contentArea .content02 img {
+  float: right;
+}
+
+#content .content02 p,
+#content .content03 p,
+#content .content03 ul {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+#content .contentArea .content03 {
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+#content .contentArea .content03 .right {
+  float: right;
+  width: 600px;
+  padding: 15px 0 15px 20px;
+  box-sizing: border-box;
+}
+
+#content .contentArea .content03 ul {
+  margin-top: 30px;
+}
+
+#content .contentArea .content03 ul span {
+  color: #01cbf4;
+  font-weight: 500;
+}
+
+/* #content .contentArea .content03 .right+ul {
+  width: 600px;
+}
+
+#content .contentArea .content03 .right+ul span {
+  display: block;
+  text-align: center;
+} */
+
+#content .contentArea .content03 .left {
+  float: left;
+  font-size: 24px;
+  width: 600px;
+}
+
+#content .contentArea .content03 .left img {
+  padding: 130px 215px 30px;
+}
+
+#content .contentArea .content03 .left span {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}

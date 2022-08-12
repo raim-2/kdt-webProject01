@@ -1,0 +1,289 @@
+/* 기업소개 본문영역 */
+/* #content {
+  height: 2000px;
+} */
+
+#content .contentArea {}
+
+#content .contentArea>p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 140px;
+  position: relative;
+}
+
+#content .contentArea>ul {
+  /* overflow: hidden; */
+}
+
+#content .contentArea>ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#content .contentArea>ul li {
+  float: left;
+  width: 180px;
+  text-align: center;
+  background: #f8f8f8;
+  box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 10%);
+  /* margin: 0 1px 1px 0; */
+}
+
+#content .contentArea>ul li a {
+  padding: 20px;
+  display: block;
+  font-size: 1.1em;
+}
+
+#content .contentArea>ul li .current {
+  background: #01abce;
+  color: #fff;
+}
+
+#content .contentArea>ul li:hover a {
+  color: #fff;
+  background: #01abce;
+}
+
+#content .contentArea .map {
+  position: relative;
+}
+
+#content .contentArea #map {
+  width: 1200px;
+  height: 735px;
+}
+
+#content .contentArea .map .summary {
+  text-align: justify;
+  color: #fff;
+  width: 410px;
+  background: linear-gradient(58deg, rgba(1, 171, 206, 1) 0%, rgba(1, 203, 244, 1) 41%, rgba(123, 215, 235, 1) 100%);
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  box-shadow: 5px 5px 11px 1px rgb(0 0 0 / 20%);
+  z-index: 50;
+}
+
+#content .contentArea .map .summary dl {
+  width: 310px;
+  margin: 0 auto;
+  padding: 50px 0 50px 30px;
+}
+
+#content .contentArea .map .summary dt {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#content .contentArea .map .summary dd:first-of-type {
+  font-size: 20px;
+  margin: 15px 0 45px;
+}
+
+#content .contentArea .map .summary a {
+  padding-left: 140px;
+  font-size: 22px;
+  color: #fff;
+  position: relative;
+}
+
+#content .contentArea .map .summary span::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  position: absolute;
+  left: 42%;
+  top: 14px;
+}
+
+#content .contentArea .map .summary i {
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+#content .contentArea .map .summary a:hover i {
+  animation: iconLeft 0.5s ease-in-out infinite;
+}
+
+@keyframes iconLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(5px);
+  }
+}
+
+#content .contentArea .location {
+  margin-top: 100px;
+}
+
+#content .contentArea .location h3 {
+  font-size: 40px;
+  margin: 50px 0 10px;
+}
+
+#content .contentArea .location ul:first-of-type {
+  width: 1200px;
+  height: 200px;
+  border-bottom: 1px solid #ccc;
+}
+
+#content .contentArea .location ul:last-child {
+  width: 1200px;
+}
+
+#content .contentArea .location dt {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1f415c;
+}
+
+#content .contentArea .location ul {
+  overflow: hidden;
+}
+
+#content .contentArea .location ul li {
+  float: left;
+  padding: 70px 0;
+}
+
+/* #content .contentArea .location {
+  position: relative;
+}
+
+#content .contentArea .location ul::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  background: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+#content .contentArea .location dl {
+  width: 600px;
+}
+
+#content .contentArea .location dl::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#content .contentArea .location dt {
+  float: left;
+  width: 200px;
+  text-align: center;
+}
+
+#content .contentArea .location dt i {
+  margin-right: 8px;
+}
+
+#content .contentArea .location dd {
+  float: left;
+  width: 400px;
+}
+
+#content .contentArea .location ul:first-of-type dd {
+  margin-left: -8px;
+}
+
+#content .contentArea .location dd span {
+  margin-right: 20px;
+}
+
+#content .contentArea .location .subway {
+  position: relative;
+}
+
+#content .contentArea .location .subway span {
+  color: #fff;
+}
+
+.location .subway p:first-child span::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 28px;
+  background: #263c96;
+  position: absolute;
+  left: -6px;
+  top: -2px;
+  z-index: -1;
+}
+
+.location .subway p:last-child span::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 28px;
+  background: #3cb44a;
+  position: absolute;
+  left: -6px;
+  top: 35px;
+  z-index: -1;
+}
+
+#content .contentArea .location dd p:first-child {
+  margin-bottom: 13px;
+}
+
+#content .contentArea .location .bus p {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#content .contentArea .location .last dd>p:first-of-type {
+  margin-left: -5px;
+}
+
+.location .bus p span {
+  color: #fff;
+}
+
+.location .bus p:first-child span::after {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 28px;
+  background: #386de8;
+  position: absolute;
+  left: -6px;
+  top: -2px;
+  z-index: -1;
+}
+
+.location .bus p:nth-child(2) span::after {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 28px;
+  background: #3cc344;
+  position: absolute;
+  left: -6px;
+  top: -2px;
+  z-index: -1;
+}
+
+.location .bus p:last-child span::after {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 28px;
+  background: #fb5852;
+  position: absolute;
+  left: -6px;
+  top: -2px;
+  z-index: -1;
+}
